@@ -1,6 +1,6 @@
 const note = require('express').Router();
 const { json } = require('express');
-const { readAndAppend, readFromFile, writeToFile} = require('../helpers/fsUtils');
+const { readAndAppend, readFromFile, writeToFile} = require('../helpers/fsUtils.js');
 const uuid = require('../helpers/uuid');
 
 
